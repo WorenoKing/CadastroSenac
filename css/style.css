@@ -1,87 +1,24 @@
 * {
-    margin: 0px 30px 10px;
-    padding: px;
-    font-family: sans-serif;
-    background-color: rgb(255, 253, 253);
-    color: rgb(208, 181, 3);
-    font-size: 16px;
-    
-   
-    
-}
-header {
-    margin: 7%;
-   
+
 }
 
-h1 {
-    
+
+.divForm {
+    margin: 5px 10%;
+    color:rgb(225, 181, 6);
+}
+
+.campoFoto{
     text-align: center;
-    font-size: 40px;
-    color:#f79219;
-    font-weight: bold;
-    
+    margin: 0px 50px;W
+}
+.update {
+    margin-bottom: 40px;
+    height: 450px;
+    width: 400px;
 }
 
-.imagemDiv {
-    margin-bottom: 20px;
-    text-align: center;
+h2{
+    margin: 60px 0px;
 }
-
-
-
-.imagem{
-    margin: 15px 0px 40px;
-    width: 430px;
-    height: 490px;
-    text-align: center;
-}
-
-
-
-
-/* tamanho do input */
-
-label {
-    text-align: left;
-    margin: 30px;
-}
-input {
-
-width: 100%;
-height: 38px;
-border: 1px solid black;
-border-radius: 4px;
-
-
-}
-
-form {
-    width: 95%;
-}
-
-/* botão do cadastro */
-button {
-    padding: 2px;
-    border-radius: 4px;
-    border: 1px solid blue;
-    width: 150px;
-    height: 38px ;
-}
-
-
-
-.grupo1 {
-    
-    display: inline-block;
-    width: 100%;
-}
-
-.area1 {
-    margin: 0px;
-    padding: 0%;
-    width: 30%;
-}
-
-
 
