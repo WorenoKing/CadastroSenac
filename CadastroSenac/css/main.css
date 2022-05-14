@@ -1,0 +1,85 @@
+body {
+    background-color: rgba(255, 255, 255, 0.387);
+    margin: 0;
+    text-align: center;
+   
+}
+
+.menu{
+    display: flex;
+  
+    justify-content: space-between;
+    background: rgb(250, 197, 6);
+    text-align: center;
+}
+
+.divImg {
+    width: 120px;
+    height: 40px;
+}
+
+
+
+.headerDiv {
+ 
+    margin-left: 5%;
+    justify-content: space-between;
+    justify-content: center;
+    width: 200px;
+    
+}
+svg {
+    padding:  0px 5%;
+}
+a svg:hover {
+    background-color:  rgba(9, 110, 205, 0.476);
+}
+
+
+/* ÁREA PESQUISA DE USUÁRIO */
+
+label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.search {
+
+    margin: 5px 90px;
+
+}
+
+
+/*------- página principal da plataforma (href="inicio.php" -------
+
+main = parte principal
+mainIcon = foto svg
+mainDiv = conteiner ou div
+
+*/
+h2 {
+    font-size: 50px;
+}
+
+main{
+    margin-top: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.387);
+}
+
+.mainIcon {
+    width: 250px;
+  
+}
+.mainDiv {
+    width: 30%;
+    text-align: center;
+}
+
+.mainDiv:hover {
+    background-color: rgba(9, 110, 205, 0.476);
+}
+
+/*--------------------------------------------------------------*/
+
