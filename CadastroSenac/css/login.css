@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(175, 175, 175);
+}
+    
+
+
+.loginDiv{
+    box-shadow: 0 0 1em rgb(17, 16, 15);
+    border-radius: 1px;
+    border: 1px solid rgb(250, 250, 239);
+    margin: 5% 35%;
+    width: 400px;
+    height: 405px;
+}
+.loginForm {
+    margin: 5%;
+
+}
+h2 {
+    text-align: center;
+}
+
+
+/* botão de login "entrar" */
+
+.formButton {
+    
+    text-align: center;
+    
+}
+.formImg {
+   
+    text-align: center;
+}

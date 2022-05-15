@@ -7,7 +7,7 @@ body {
 
 .menu{
     display: flex;
-  
+    box-shadow: 0 0 1em rgb(7, 7, 6);
     justify-content: space-between;
     background: rgb(250, 197, 6);
     text-align: center;
@@ -21,7 +21,7 @@ body {
 
 
 .headerDiv {
- 
+    
     margin-left: 5%;
     justify-content: space-between;
     justify-content: center;
@@ -44,9 +44,12 @@ label {
 }
 
 .search {
-
+    
     margin: 5px 90px;
 
+}
+input {
+    box-shadow: 0 0 1em rgba(17, 16, 15, 0.233);
 }
 
 
@@ -65,14 +68,15 @@ main{
     margin-top: 20px;
     justify-content: space-evenly;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.387);
+    background-color: rgba(255, 255, 255, 0.874);
 }
 
 .mainIcon {
-    width: 250px;
+    width: 200px;
   
 }
 .mainDiv {
+    box-shadow: 0 0 1em rgba(17, 16, 15, 0.456);
     width: 30%;
     text-align: center;
 }
