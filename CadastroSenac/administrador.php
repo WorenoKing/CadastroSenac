@@ -13,7 +13,7 @@
 <body>
 <header class="menu">
     <div class="headerDiv">
-        <img class="divImg" src="img/1200px-Senac_logo.svg.png" >
+        <img class="divImg" src="img/1200px-Senac_logo.svg.png" alt="Logo do Senac">
     </div>
     <div class="headerDiv"></div>
     <div class="headerDiv">
@@ -44,31 +44,31 @@
     
     <div class="mainDiv">
        
-        <a href="index.php"><img class="mainIcon" src="img/search.png"></a>
+        <a href="index.php"><img class="mainIcon" src="img/search.png" alt="Área de busca"></a>
         <h2>BUSCAR</h2>
     </div>
     <div class="mainDiv">
-        <a href="Cadastrar.php"><img class="mainIcon" src="img/add.png"></a>
+        <a href="Cadastrar.php"><img class="mainIcon" src="img/add.png" alt="Área de adicionar"></a>
         <h2>ADICIONAR</h2>
     </div>
     <div class="mainDiv">
-        <a href="Cadastrar.php"><img class="mainIcon" src="img/edit.png"></a>
+        <a href="Cadastrar.php"><img class="mainIcon" src="img/edit.png" alt="Área de editar"></a>
         <h2>EDITAR</h2>
     </div>
    
 </main>
 <main>
 <div class="mainDiv">
-        <a href="#"><img class="mainIcon" src="img/pie-chart (1).png"></a>
+        <a href="#"><img class="mainIcon" src="img/pie-chart (1).png" alt="Área de gráfico de cadastros"></a>
         <h2>GRAFICO</h2>
     </div>
 
     <div class="mainDiv">
-        <a href="#"><img class="mainIcon" src="img/timer.png"></a>
+        <a href="#"><img class="mainIcon" src="img/timer.png" alt="Área de log de registro"></a>
         <h2>LOG</h2>
     </div>
     <div class="mainDiv">
-        <a href="#"><img class="mainIcon" src="img/setting.png"></a>
+        <a href="#"><img class="mainIcon" src="img/setting.png" alt="Área de configuração da página"></a>
         <h2>CONFIGURAÇÃO</h2>
     </div>
 </main>
