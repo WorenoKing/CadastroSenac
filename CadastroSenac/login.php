@@ -14,7 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <title></title>
+    <title>Área de Login</title>
 </head>
 <body>
 
@@ -22,7 +22,7 @@
 
 
     <div class="formimg">
-        <img class="formImg" src="img/1200px-Senac_logo.svg.png" width="130px">
+        <img class="formImg" src="img/1200px-Senac_logo.svg.png" width="130px" alt="Logo do Senac">
         <h2>Login de Aluno</h2>
         </div>
         <hr>

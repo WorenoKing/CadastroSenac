@@ -13,7 +13,7 @@
 <body>
 <header class="menu">
     <div class="headerDiv">
-        <img class="divImg" src="img/1200px-Senac_logo.svg.png" >
+        <img class="divImg" src="img/1200px-Senac_logo.svg.png" alt="logo do Senac">
     </div>
     <div class="headerDiv"></div>
     <div class="headerDiv">
@@ -44,12 +44,12 @@
     
     <div class="mainDiv">
        
-        <a href="index.php"><img class="mainIcon" src="img/search.png"></a>
+        <a href="index.php"><img class="mainIcon" src="img/search.png" alt="Área de busca"></a>
         <h2>BUSCAR</h2>
     </div>
  
     <div class="mainDiv">
-        <a href="#"><img class="mainIcon" src="img/edit.png"></a>
+        <a href="#"><img class="mainIcon" src="img/edit.png" alt="Área de editar"></a>
         <h2>EDITAR</h2>
         
     </div>

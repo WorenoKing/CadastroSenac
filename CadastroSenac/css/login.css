@@ -32,3 +32,17 @@ h2 {
    
     text-align: center;
 }
+
+@media screen and (max-width: 1200px){
+    .loginDiv{
+        margin-left:27%;
+        clear:left;     
+    }
+}
+
+@media screen and (max-width: 600px){
+    .loginDiv{
+        margin-left:15%;
+        clear:left;     
+    }
+}

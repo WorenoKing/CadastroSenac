@@ -22,7 +22,7 @@
 
   <h2>Cadastro do Perfil do Estudante</h2>
 
-    <img class="update" src="IMG_20200913_121542.jpg">
+    <img class="update" src="IMG_20200913_121542.jpg" alt="Área de foto do aluno">
   <div class="campoFoto">
     <div class="form-group">
       <input type="file"  id="exampleFormControlFile1">
