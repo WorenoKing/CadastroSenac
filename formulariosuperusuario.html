@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+     <title> Formulário de Contato Superusuario </title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+  <!--  <script type="text/javascript">
+        function validaForm()
+        {
+           erro = false;
+           if($('#buscar').val() == '')
+           {
+               alert('Você precisa preencher o campo Buscar');erro = true;
+           }
+           if($('#adicionar').val() == '' && !erro)
+           {
+               alert('Você precisa preencher o campo Adicionar');erro = true;
+           }
+           if($('#editar').val() == '' && !erro)
+           {
+               alert('Você precisa preencher o campo Editar');erro = true;
+           }
+       
+           //se nao tiver erros
+           if(!erro)
+           {
+               $('#formulario_contato').submit();
+           }
+        }
+       </script>-->
+
+</head>
+<body>
+   
+    <div class="container">
+
+
+    <form method="post"  class="form">
+        <h2> Formulário de Contato Superusuario </h2>
+        <p class="name">
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu Nome" />
+        </p>
+        <p class="email">
+            <label for="email">E-mail</label>
+            <input type="text" placeholder="mail@exemplo.com.br" />
+        </p>   
+        <p class="senha">
+            <label for="senha">Senha</label>
+            <input type="text" placeholder="Digite sua Senha" />    
+        </p>
+        <p class="submit">
+            <input type="button" onclick="location.href='administrador.php';" value="Buscar"/>
+            <input type="button" onclick="location.href='administrador.php';" value="Adicionar"/>
+            <input type="button" onclick="location.href='administrador.php';" value="Editar"/>
+        </p>
+        </form>
+    </div>
+</body>
+
+</html>
