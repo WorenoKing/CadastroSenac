@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
     <link rel="stylesheet" href="css/main.css">
+
+    
     <title>Plataforma ||</title>
 </head>
 <body>
@@ -42,22 +43,25 @@
 
 <main>
     
-    <div class="mainDiv">
+    <div class="mainDiv1">
        
         <a href="index.php"><img class="mainIcon" src="img/search.png" alt="Área de busca"></a>
+        <div class="subtitle1">
         <h2>BUSCAR</h2>
     </div>
-    <div class="mainDiv">
+    </div>
+    <div class="mainDiv2">
         <a href="Cadastrar.php"><img class="mainIcon" src="img/add.png" alt="área de adicionar"></a>
+        <div class="subtitle2">
         <h2>ADICIONAR</h2>
     </div>
-    <div class="mainDiv">
+    </div>
+    <div class="mainDiv3">
         <a href="#"><img class="mainIcon" src="img/edit.png" alt="Área para editar"></a>
+        <div class="subtitle3">
         <h2>EDITAR</h2>
     </div>
-    
-  
-
+    </div>
 </main>
     <?php 
     include("footer.php")

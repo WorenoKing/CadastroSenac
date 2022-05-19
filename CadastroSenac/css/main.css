@@ -75,15 +75,71 @@ main{
     width: 200px;
   
 }
-.mainDiv {
+.mainDiv1 {
     box-shadow: 0 0 1em rgba(17, 16, 15, 0.456);
     width: 30%;
     text-align: center;
 }
 
-.mainDiv:hover {
+.mainDiv2 {
+    box-shadow: 0 0 1em rgba(17, 16, 15, 0.456);
+    width: 30%;
+    text-align: center;
+}
+
+.mainDiv3 {
+    box-shadow: 0 0 1em rgba(17, 16, 15, 0.456);
+    width: 30%;
+    text-align: center;
+}
+
+.mainDiv1:hover {
     background-color: rgba(9, 110, 205, 0.476);
 }
 
-/*--------------------------------------------------------------*/
+.mainDiv2:hover {
+    background-color: rgba(9, 110, 205, 0.476);
+}
+
+.mainDiv3:hover {
+    background-color: rgba(9, 110, 205, 0.476);
+}
+
+/*Área responsivo*/
+
+@media screen and (max-width: 1200px){
+    h2,
+    .subtitle1,
+    .subtitle2,
+    .subtitle3,
+    .mainIcon,
+    .mainDiv1,
+    .mainDiv2,
+    .mainDiv3{
+        display:inline-table;
+        width:100px;
+        margin-right:2%;
+        padding-top:0%;
+        clear:left;
+}
+}
+
+@media screen and (max-width: 600px){
+    h2,
+    .subtitle1,
+    .subtitle2,
+    .subtitle3,
+    .mainIcon,
+    .mainDiv1,
+    .mainDiv2,
+    .mainDiv3{
+        display:inline-table;
+        width:50px;
+        margin-right:2%;
+        padding-top:0%;
+        clear:left;
+}
+}
+
+
 
