@@ -75,6 +75,11 @@ main{
     width: 200px;
   
 }
+.mainDiv{
+    box-shadow: 0 0 1em rgba(17, 16, 15, 0.456);
+    width: 30%;
+    text-align: center;
+}
 .mainDiv1 {
     box-shadow: 0 0 1em rgba(17, 16, 15, 0.456);
     width: 30%;
